@@ -1,0 +1,11 @@
+<!-- loginForm.html -->
+<template>
+    <lightning-card title="Login">
+        <div class="slds-p-around_medium">
+            <lightning-input label="Username" value={username} onchange={handleUsernameChange}></lightning-input>
+            <lightning-input label="Password" type="password" value={password} onchange={handlePasswordChange}></lightning-input>
+            <lightning-button label="Login" onclick={handleLogin} variant="brand"></lightning-button>
+            
+        </div>
+    </lightning-card>
+</template>
